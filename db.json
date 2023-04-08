@@ -1,0 +1,63 @@
+{
+    "rooms": [
+      {
+        "id": 1,
+        "name": "lion",
+        "description": "A room decorated with lion-inspired artwork and furnishings.Charges inclusive of breakfasrt for two and free swimming and a two story high view overlooking the great indian ocean",
+        "occupancy": 2,
+        "price": 6500.00,
+        "hired_rooms": 1,
+        "capacity":1,
+        "duration":"24hrs",
+        "image":"shorturl.at/asBV4"
+        
+      },
+      {
+        "id": 2,
+        "name": "cheetah",
+        "description": "A cozy room decorated with cheetah patterns and warm colors.Charges inclusive of breakfasrt for two and free swimming and a cool breeazy ground floor view of the great indian ocean. ",
+        "occupancy": 2,
+        "price": 5500.00,
+        "hired_rooms": 1,
+        "capacity":1,
+        "duration":"24hrs",
+        "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F474x%2F89%2Fff%2F33%2F89ff33cf259db8a30e672a983163210e--leopard-print-bedding-animal-print-bedroom.jpg&tbnid=Lpyh87H7F4UoEM&vet=12ahUKEwjOneKgspj-AhXxkicCHTtzAtcQMygUegUIARDaAQ..i&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F394065036114933577%2F&docid=5xgLeiaph2pMoM&w=300&h=350&q=cheetah%20themed%20room&ved=2ahUKEwjOneKgspj-AhXxkicCHTtzAtcQMygUegUIARDaAQ"
+        
+        
+      },
+      {
+        "id": 3,
+        "name": "giraffe",
+        "description": "A spacious room decorated with giraffe prints and earthy tones.Charges inclusive of breakfasrt for two and free swimming and a cool breeazy ground floor view of the great indian ocean.",
+        "occupancy": 2,
+        "price": 5000.00,
+        "hired_rooms": 1,
+        "capacity":1,
+        "duration":"24hrs",
+        "image":"shorturl.at/hpGJ3"
+      },
+      {
+        "id": 4,
+        "name": "hippo",
+        "description": "A room with a relaxing vibe, featuring artwork and colors inspired by hippos.Charges inclusive of breakfasrt for two and free swimming",
+        "occupancy": 2,
+        "price": 3500.00,
+        "hired_rooms": 1,
+        "capacity":1,
+        "duration":"24hrs",
+        "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2F84YAAOSwd2xXP20g%2Fs-l500.jpg&tbnid=j0ULM1Oh5vswLM&vet=12ahUKEwjlkbjosJj-AhVtmicCHT_gDDoQMygbegUIARDhAQ..i&imgrefurl=https%3A%2F%2Fwww.ebay.com%2Fitm%2F254043554119&docid=4NvyZjLVGlQ7PM&w=500&h=500&itg=1&q=swamp%20themed%20room&ved=2ahUKEwjlkbjosJj-AhVtmicCHT_gDDoQMygbegUIARDhAQ"
+      },
+      {
+        "id": 5,
+        "name": "zebra",
+        "description": "A chic and modern room with zebra-print accents and monochrome decor.Charges inclusive of breakfasrt for two and free swimming.",
+        "occupancy": 2,
+        "price": 4500.00,
+        "hired_rooms": 1,
+        "capacity":1,
+        "duration":"24hrs",
+        "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-wu3d3seh1d%2Fimages%2Fstencil%2F1280x1280%2Fproducts%2F130%2F5293%2FZebra-comforter-set-1__15920.1648011422.jpg%3Fc%3D2&tbnid=FX0ZqjMVLowQTM&vet=12ahUKEwjdmYu_sZj-AhWdpycCHaHKBqcQMygiegUIARD1AQ..i&imgrefurl=https%3A%2F%2Fwww.legacydecor.com%2F7-pc-zebra-print-comforter-bedding-set%2F&docid=I_H_78lkMNUkrM&w=1280&h=1280&q=zebra%20themed%20room&ved=2ahUKEwjdmYu_sZj-AhWdpycCHaHKBqcQMygiegUIARD1AQ"
+      }
+    ]
+  }
+  
