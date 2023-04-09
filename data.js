@@ -22,7 +22,7 @@ renderRooms=(rooms)=>{
   const card =document.createElement("p")
   card.className ="room-card"
   card.innerHTML=`
-  <img class= src =${rooms.image}>
+  <img class ="image" src =${rooms.image}>
   name:${rooms.name}
   <br></br>
   description:${rooms.description}
@@ -33,10 +33,23 @@ renderRooms=(rooms)=>{
   <br></br>
   duration:${rooms.duration}
   <br></br>
-  available_rooms:${rooms.available_rooms}
+  available_rooms:<span>${rooms.available_rooms}</span>
   <br></br>
-  <button>book</button>
+  <button id = "Book-room" >book</button>
   `
+  card.querySelector('#Book-room').addEventListener("click",()=>{
+    rooms.available_rooms --;
+    if(rooms.available_rooms >0){
+      card.querySelector('span').textContent = rooms.available_rooms
+    }
+    else{
+      card.querySelector('span').textContent ='sorry this room has already been booked'
+    }
+
+    
+    
+  })
+
   document.getElementById('joshua').appendChild(card)
 }
       /*const Bookrooms = card.querySelector('.Book-room');
