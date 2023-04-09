@@ -1,34 +1,45 @@
-~
 
+var slides = document.getElementsByClassName("slide");
+		var currentSlide = 0;
+
+		function showSlide() {
+			slides[currentSlide].style.display = "none";
+			currentSlide = (currentSlide + 1) % slides.length;
+			slides[currentSlide].style.display = "block";
+			setTimeout(showSlide, 4000);
+		}
+
+		showSlide();
 
 fetch("http://localhost:3000/rooms")
-  .then(function (response) {
-    return response.json();
-  })
+  .then(res => res.json())
+  .then(data =>data.forEach(rooms => renderRooms(rooms)))
  
 
-    const vacation = document.querySelector('joshua');
-
-    data.forEach(function (room) {
-      const card = document.createElement('div');
-      card.classList.add('card');
-      card.innerHTML = `
-      
-           <img src="${room.image}">
-          <h1><b>${room.name}</b></h1>
-          <p>Occupancy: ${room.occupancy}</p>
-          <p>Price: ${room.price}</p>
-          <p>Duration: ${room.duration}</p>
-          <p>capacity:${room.capacity}</p>
-          <p>Description:${room.description}</p>
-          <p>Available rooms: <span class="available-rooms">${room.capacity - hired_rooms}</span></p>
-          <button class="Book-room">Book room</button>
-      
-      `;
-      vacation.appendChild(card);
-
-
-      const Bookrooms = card.querySelector('.Book-room');
+    
+    
+renderRooms=(rooms)=>{
+  const card =document.createElement("p")
+  card.className ="room-card"
+  card.innerHTML=`
+  <img class= src =${rooms.image}>
+  name:${rooms.name}
+  <br></br>
+  description:${rooms.description}
+  <br></br>
+  occupancy:${rooms.occupancy}
+  <br></br>
+  price:${rooms.price}
+  <br></br>
+  duration:${rooms.duration}
+  <br></br>
+  available_rooms:${rooms.available_rooms}
+  <br></br>
+  <button>book</button>
+  `
+  document.getElementById('joshua').appendChild(card)
+}
+      /*const Bookrooms = card.querySelector('.Book-room');
 
       Bookroom.addEventListener('click', function(event) {
         event.preventDefault(); 
@@ -60,7 +71,7 @@ fetch("http://localhost:3000/rooms")
           alert('Sorry, this room is already booked!');
         }
       });
-    })
+    }
   .catch(function(error) {
     console.log('There was an error fetching the booking data:', error);
-  });
+  });*/

@@ -21,9 +21,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <nav id="navbar">
   <div class="navbar-left">
-    <img class="logo-img" src="talentoslogo.jpg" alt="logo">
+    <img class="logo-img" src="images/talentoslogo.jpg" alt="logo">
     <span style="font-size: 100px;  color:white;">Talentos</span>
-    <img  class="logo-img" src="dolfin1.png" alt="logo">
+    <img  class="logo-img" src="images/dolfin1.png" alt="logo">
   </div>
   <div class="navbar-right">
     <a href="#home">Home</a>
@@ -40,36 +40,28 @@
 
 
 	<div class ="slideshow-container">
-		<img class="slide" src="pic1.jpg">
-        <img class="slide" src="pic3.jpg">
-        <img class="slide" src="pics.avif">
+		<img class="slide" src="images/pic1.jpg">
+        <img class="slide" src="images/pic3.jpg">
+        <img class="slide" src="images/pics.avif">
 		
 	</div>
-	<script>
-		var slides = document.getElementsByClassName("slide");
-		var currentSlide = 0;
-
-		function showSlide() {
-			slides[currentSlide].style.display = "none";
-			currentSlide = (currentSlide + 1) % slides.length;
-			slides[currentSlide].style.display = "block";
-			setTimeout(showSlide, 4000);
-		}
-
-		showSlide();
-	</script>
+	
 	<h2 style="background:blue; font-size: 50px;  color:white; text-align:center;">ABOUT US</h2>
 	<p   style="font-size: 25px "id="aboutus">We connect travelers with the perfect room. Available 24/7, we offer a wide variety of rooms for all budgets.Our team is dedicated to providing a hassle-free experience for all travelers. We understand the importance of comfortable accommodations, and we strive to offer the best options at competitive prices. From cozy bed and breakfasts to swimming a crystal clear pool.Thank you for choosing our room booking website!</p>
 	
 	<h3 style="background:blue; font-size: 50px;  color:white; text-align:center;">ROOMS</h3>
 	<p style="font-size: 40px; text-align:center ;" id="rooms">Below are the available rooms:</p>
-	<div id="joshua"></div>
+
+	<div id="joshua">
+
+	</div>
 	<h3 style="background:blue; font-size: 50px;  color:white; text-align:center;">CONTACT US ON</h3>
 	<p style="font-size: 40px; text-align:center ;" id="contact">In the event you need to reach out to us please feel free to contact us on the social media plat forms below:</p>
 	
 	<div class="social">
-	<a href="#https://www.facebook.com/talentosbeachresort/" class="fa fa-facebook"></a>
-	<a href="#https://www.instagram.com/talentosbeachresort/" class="fa fa-instagram"></a>
+	
+<a href="#https://www.facebook.com/talentosbeachresort/" class="fa fa-facebook"></a>
+<a href="#https://www.instagram.com/talentosbeachresort/" class="fa fa-instagram"></a>
 	</div>
 	<script src="data.js"></script>
 </body>
